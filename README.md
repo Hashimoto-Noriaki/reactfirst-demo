@@ -13,6 +13,10 @@ npm run dev
 yarn dev
 ```
 
+# Atomicデザイン、設計など
+
+https://github.com/Hashimoto-Noriaki/reactOutputFirst/wiki
+
 
 
 
