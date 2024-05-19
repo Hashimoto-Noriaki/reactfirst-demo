@@ -1,4 +1,10 @@
 /**
+ * InputForm
+ * 
+ * @package components
+ */
+import styles from "./style.module.css";
+/**
 * InputForm
 *@params{*}props
 *@returns   
@@ -8,7 +14,8 @@ export const InputForm = (props) => {
     const [inputValue,handleChangeValue,handleKeyDown,placeholder] = props;
 
     return (
-        <input 
+        <input
+            className={styles.input}
             type= "text"
             placeholder={placeholder}
             value={inputValue}
